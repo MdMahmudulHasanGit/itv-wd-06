@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p style="color: #b42c2c; font-size: 30px">This is paragraph</p>
+        <form action="submit.php" method="GET">
+            <label for="name">Full Name</label>
+            <input type="text" name="fname" id="name" value="" />
+            <br /><br />
+
+            <label for="number">Phone Number</label>
+            <input type="number" name="pnumber" id="number" value="" />
+            <br /><br />
+
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" value="" />
+            <br /><br />
+
+            <h2>Select your gender</h2>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" /><br />
+            <label for="female">Female</label>
+            <input
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+            /><br />
+            <label for="other">Other</label>
+            <input
+                type="radio"
+                name="gender"
+                id="other"
+                value="other"
+            /><br /><br />
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="password" /><br /><br />
+
+            <label for="bdate">Birthday date</label>
+            <input type="date" id="bdate" name="date" /><br /><br />
+
+            <label for="bdatetime">Birthday date with time</label>
+            <input
+                type="datetime-local"
+                id="bdatetime"
+                name="bdatetime"
+            /><br /><br />
+
+            <label for="file">Upload your file</label>
+
+            <input type="file" id="file" name="image" /><br /><br />
+
+            <label for="color">Select your favourite color</label>
+            <input
+                type="color"
+                id="color"
+                name="color"
+                value="#FFFFFF"
+            /><br /><br />
+
+            <textarea name="bigtext" cols="10" rows="10"></textarea>
+            <br /><br />
+
+            <input
+                type="hidden"
+                name="hiddenField"
+                value="this is submitted without acknowledge of the user"
+            />
+
+            <label for="url">Submit your profile link</label>
+            <input type="url" id="url" name="url" /><br /><br />
+
+            <label for="area">Select Your area</label>
+            <select id="area" name="myArea">
+                <option value="dinajpur">Dinajpur</option>
+                <option value="Birgonj">Birgonj</option>
+                <option value="Setabganj">Setabganj</option>
+                <option value="Thakurgaon">Thakurgaon</option>
+                <option value="panchagarh">Panchagarh</option>
+            </select>
+
+            <!-- This is for submit and reset -->
+            <button type="submit">Submit</button>
+            <input type="reset" value="Click to Reset" />
+        </form>
+
+        <iframe
+            src="https://fforhad.000webhostapp.com"
+            width="500px"
+            height="500"
+            frameborder="5"
+        ></iframe>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LMqH5cXq3Do"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </body>
+</html>
