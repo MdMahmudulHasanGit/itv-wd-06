@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 400px;
+    height: 150px;
+    background-color: green;
+    margin: 20px;
+    padding: 50px;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: hotpink; */
+}
+
+.box:hover{
+    background-color: red;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    margin: 21px 0px 20px 130px;
+}
+
+.box:hover .red{
+    background-color: green;
+}
+
+.text{
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* text-indent: 50px; */
+    letter-spacing: 5px;
+    text-shadow: 2px 1px 5px red;
+}
+
+.link{
+    color: green;
+}
+
+.link:hover{
+    color: red;
+}
+
+.link:visited{
+    color: blue;
+}
