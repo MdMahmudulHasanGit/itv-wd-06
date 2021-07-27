@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin: 50px;
+}
+
+li{
+    /* list-style: none; */
+    list-style-type: square;
+}
+
+table{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+tr:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+.inline{
+    display: block;
+    background-color: #462b2b;
+    /* height: 500px;
+    width: 500px; */
+}
+
+.block{
+    display: inline;
+    background-color: #f55f5f;
+    height: 500px;
+    width: 500px;
+}
+
+.css-inline{
+    display: none;
+}
+
+.css-inline-block{
+    display: inline-block;
+    background-color: red;
+    /* height: 100px; */
+}
+
+.static{
+    position: static;
+}
+
+.p-relative{
+    position: relative;
+    top: 100px;
+    /* left: 50px; */
+    right: 50px;
+    border: 1px solid black;
+}
+
+.p-fixed{
+    position: fixed;
+    bottom: 20px;
+}
+
+.p-relative2{
+    position: relative;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.p-absolute{
+    position: absolute;
+    background-color: rgb(128, 0, 21);
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.sticky{
+    position: sticky;
+    background-color: skyblue;
+    top: 0px;
+}
+
+.overflow{
+    height: 100px;
+    width: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid red;
+    margin: 50px auto;
+}
