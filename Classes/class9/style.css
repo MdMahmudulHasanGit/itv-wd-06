@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box1{
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    float: left;
+}
+
+.box2{
+    height: 20px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+/* .box3{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(21, 40, 150);
+    clear: both;
+    background-image: url('https://techviewing.com/public/assets/uploads/posts/Why-you-sh1509230093.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: cyan;
+    display: inline-block;
+}
+
+p::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: cyan;
+    display: inline-block;
+    
+}
+
+.img{
+    opacity: 0.5;
+    width: 200px;
+} */
+
+.boxAnimation{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    /* transition: all 1s ease; */
+    transition-property:  transform;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.boxAnimation:hover{
+    /* transform: skewY(20deg); */
+    transform: scale(2);
+}
