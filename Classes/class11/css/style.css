@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    width: 100%;
+    /* background-color: rgb(128, 128, 128); */
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-item a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menu-item a:hover{
+    color: rgb(87, 87, 87);
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: itv;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes itv{
+    from{
+        background-image: url("../img/img1.jpg");
+    }
+    to{
+        background-image: url("../img/img2.jpg");
+    }
+}
+
+.service{
+    margin: 100px 0px;
+}
+
+.service_header h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.service_cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.service_card {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_card-icon {
+    background-color: #acacac;
+    border-radius: 50%;
+}
+
+.service_card-icon:hover {
+    background-color: #797979;
+}
+
+.service_card-icon img{
+    width: 200px;
+}
+
+.service_card-header{
+    margin-top: 20px;
+}
+
+.service_card-description p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.about{
+    display: flex;
+    background-color: #EEEDEB;
+}
+
+.about_content-Header{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about_content-description{
+    margin: 20px 80px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.footer{
+    background-color:rgb(0, 0, 0)
+}
+
+.copyright p{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
