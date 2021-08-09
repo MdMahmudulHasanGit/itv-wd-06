@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 992px) {
+    /* body{
+        background-color: rgb(239, 255, 21);
+    } */
+    .logo img{
+        width: 75%;
+    }
+    .container{
+        width: 90%;
+    }
+    .menu-item a{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .slider{
+        height: 400px;
+    }
+    .service_card-icon img{
+        width: 120px;
+    }
+    .service_card-header h2{
+        font-size: 1.2rem;
+    }
+    .service_card-description p{
+        font-size: 1rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about_image img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    /* body{
+        background-color: green;
+    } */
+}
