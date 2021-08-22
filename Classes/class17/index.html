@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #panel,
+        #flip {
+            padding: 5px;
+            font-size: 18px;
+            text-align: center;
+            background-color: #555;
+            color: white;
+            border: solid 1px #666;
+            border-radius: 3px;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+
+        .text-style {
+            color: pink;
+            font-size: 20px;
+            background-color: green;
+        }
+
+        .text-style:hover {
+            color: rgb(255, 0, 43);
+            font-size: 20px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p id="p1">jQuery is<b> fun!!</b></p> -->
+    <!-- <input type="text" name="username" id='input' value='web design'> -->
+    <div class="addHtml">
+        <p class='text-style'>This is from direct html</p>
+    </div>
+
+    <button>Click me</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $.post(
+                "test.php",
+                {
+                    data: "name",
+                    password: '133',
+                },
+                function (response) {
+                    // console.log(response);
+                }
+            )
+        })
+    })
+</script>
+
+</html>
