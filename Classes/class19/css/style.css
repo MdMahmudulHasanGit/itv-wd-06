@@ -1,0 +1,250 @@
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.main-section-bg{
+    background-color: #f7f9ff;
+}
+
+/* =======Position -Fixed====== */
+
+.navbar {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: +10;
+}
+
+/* =====.Header Style.====== */
+.R-header span {
+    color: #fff;
+    background: #6565f2;
+    display: inline-block;
+    width: 41px;
+    height: 44px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 31px;
+    position:relative;
+    top: 2px;
+}
+.R-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.R-menu .nav-link {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+/* =========.Slider Section.======== */
+.slider-section{
+    background:url(http://127.0.0.1:5500/img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+}
+.slider-section::after{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -2;
+}
+
+.slider-caption h4 {
+    margin-bottom: 34px;
+    font-size: 30px;
+}
+.slider-caption h2 {
+    margin-bottom: 51px;
+    font-size: 45px;
+}
+.slider-caption .btn{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.slider-caption .form-control{
+    padding: 18px 20px;
+}
+
+/* ======Counter sention==== */
+.counter-items .h2 {
+    font-size: 57px;
+}
+.counter-items .text-muted {
+    font-size: 24px;
+}
+
+/* ==============about-section============= */
+.about-section{
+    background: #f7f9ff;
+}
+.about-left{
+    margin-top: 120px;
+}
+.about-left .lead {
+    font-size: 21px;
+    font-weight: 400;
+}
+.about-app .text-muted {
+    font-size: 24px;
+    font-weight: 300;
+}
+.about-left .mb-4 {
+    font-size: 45px;
+    font-weight: 500;
+    color: black;
+}
+/* ======Feature- Section======= */
+.feature-items {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+}
+.feature-items.d-flex.align-items-center:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.left-img-section {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-text-section{
+    width: 60%;
+}
+   
+    .left-img-section img {
+        height: 100%;
+        width: auto !important;
+        max-width: inherit;
+        left: -128px;
+        position: relative;
+    }
+
+    /* =======Portfolio section======== */
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+
+.portfolio-item a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(98, 120, 223, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition:all ease .6s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility:visible;
+}
+/* ===============pricing section=============== */
+ .pricing-item{
+     background-color: #fff;
+     padding: 50px;
+     box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+
+ }   
+
+ .pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 83px;
+}  
+ .pricing-item ul li{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 20px;
+     color: #777;
+
+ }   
+ .pricing-item ul li span{
+    color: #657be0;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    width: 40px;
+ }   
+
+
+ .pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 23px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+     ;
+}
+.pricing-item .btn:hover {
+    color: white;
+    background: black;
+}
+.pricing-item:hover .btn {
+    color: white;
+    background: #657be0;
+}
+/* ========author section========== */
+.author-info {
+    width: 215px;
+    margin: auto;
+}
+.author-info img {
+    width: 64px;
+}
+.user-details {
+    float: left;
+    width: auto;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.user-details h5 {
+    font-size: 21px;
+    color: black;
+    font-weight: 500;
+}
+.testimonial span {
+    color: #bbb7b74d;
+    font-size: 81px;
+}
+.testimonial h5 {
+    font-size: 25px;
+    font-weight: 300;
+}
+.lead {
+    font-size: 22px;
+    font-weight: 300;
+}
+/* ============Teem Member================== */
+.about-item {
+    margin-top: 90px;
+}
+
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -74px;
+    margin-left: 18px;
+}
+/* ============contuct-section======== */
+
+
+
