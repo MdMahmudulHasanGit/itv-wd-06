@@ -1,6 +1,0 @@
-JQuery
-
-Magnific Popup
-Owl Carousel
-Sweat Alert
-Isotope

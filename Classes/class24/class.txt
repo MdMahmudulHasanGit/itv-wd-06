@@ -1,0 +1,7 @@
+sprintf
+if else condition details 
+switch condition 
+for loop
+while loop
+ternary operator
+null collapse operator
