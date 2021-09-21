@@ -1,0 +1,12 @@
+switch case
+alternative syntax
+operator precedence
+smart coasing vs dumb coading 
+continue and break in loop 
+Function
+    Type hinting
+    Default value or optional perameter
+    Accept unlimited argument
+    fix return type
+getType()
+Include_once
