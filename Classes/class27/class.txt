@@ -1,0 +1,21 @@
+1. variable scope
+2. count()
+3. Array modify
+4. array_shift()
+5. array_pop()
+6. array_push()
+7. array_unshift()
+8. array_keys()
+9. array_values()
+10. explode()
+11. join()
+12. preg_split()
+13. serialize()
+14. unserialize()
+15. json_encode()
+16. json_decode()
+17. Copy by value vs copy by referance
+18. unset()
+19. array_slice()
+19.1. array_splice()
+20. array_merge()

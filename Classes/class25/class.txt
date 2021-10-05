@@ -10,3 +10,9 @@ Function
     fix return type
 getType()
 Include_once
+
+
+Password
+
+
+md5('password)
